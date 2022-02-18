@@ -68,7 +68,7 @@ class UserPage extends React.Component {
                 <h1>Posts</h1>
                 <div className="add-post">
                   <h3>
-                    Add Post!
+                    Want to add new post?
                     <i
                       className="teal plus square icon add-post-icon"
                       onClick={this.toggleNewPost}

@@ -103,18 +103,18 @@ class Post extends React.Component {
           open={this.state.deleteModalOpen}
           onClose={this.onDeleteClose}
           basic
-          size="small"
+          size="tiny"
         >
           <Header icon="delete" content="Delete" />
           <Modal.Content>
             <h3>Are you sure you want to delete this post?</h3>
           </Modal.Content>
           <Modal.Actions>
-            <Button color="black" onClick={this.onDeleteClose} inverted>
+            <Button color="grey" onClick={this.onDeleteClose} inverted>
               Cancel
             </Button>
             <Button
-              color="red"
+              color="blue"
               type="submit"
               onClick={this.onDeleteClick}
               inverted

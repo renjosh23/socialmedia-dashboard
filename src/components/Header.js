@@ -14,7 +14,7 @@ const StyledHeader = styled.div`
     align-items: center;
     height: 70px;
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
-    background-color: darkBlue;
+    background-color: #3d54ba;
 
     a {
       color: #dfe5f0;
