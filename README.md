@@ -7,7 +7,7 @@ Make sure you have node installed. You can download it [here](https://nodejs.org
 Then you can clone this repo, install dependendencies, and start using the following command:
 
 ```bash
-$ git clone https://github.com/renjosh23/socmed-dashboard.git
+$ git clone https://github.com/renjosh23/socialmedia-dashboard.git
 $ npm install
 $ npm start
 ```
