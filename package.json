@@ -1,11 +1,7 @@
 {
-  "name": "react-dashboard",
+  "name": "soc-med-dashboard",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "npm": "6.8.0",
-    "node": "10.15.1"
-  },
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.8.3",
@@ -42,6 +38,8 @@
     "enzyme-to-json": "^3.3.5"
   },
   "jest": {
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   }
 }
